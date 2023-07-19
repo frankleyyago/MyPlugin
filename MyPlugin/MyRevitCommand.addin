@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>MyPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>A80B68D7-D0CC-4AF1-B1D0-1D3871F7828E</AddInId>
+		<FullClassName>MyRevitCommands.GetElementId</FullClassName>
+		<Text>GetElementId</Text>
+		<Description>Get the Id from an element</Description>
+		<VendorId>Yago</VendorId>
+		<VendorDescription>@Learndynamo</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>90ECBBEC-580A-4C36-B183-3F7B51099BBF</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>CollectWindows</Text>
+		<Description>Collect windows from a document</Description>
+		<VendorId>Yago</VendorId>
+		<VendorDescription>@Learndynamo</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>DBB9F5C0-9BF1-41E4-9AF1-70379C3C5AF3</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>DeleteElements</Text>
+		<Description>Deletes an element from the document</Description>
+		<VendorId>Yago</VendorId>
+		<VendorDescription>@Learndynamo</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>DBB9F5C0-9BF1-41E4-9AF1-70379C3C5AF3</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>PlaceLineElement</Text>
+		<Description>Create wall through lines</Description>
+		<VendorId>Yago</VendorId>
+		<VendorDescription>@Learndynamo</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
